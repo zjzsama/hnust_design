@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>账号管理页面</title>
+    <link href="/css/account.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div>
+    <div class="container">
+        <div class="header">
+            <h2>管理账号</h2>
+            <button class="btn-back" onclick="back()">返回</button>
+        </div>
+            <label>新密码:</label><input type="password" id="newPassword" required><br>
+            <label>确定密码:</label><input type="password" id="confirmPassword" required><br>
+            <div class="btns-container">
+                <button onclick="changeAccountInfo()">确定修改</button>
+                <button onclick="logout()" id="logout" class="logout">注销账号</button>
+            </div>
+    </div>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/account.js"></script>
+</div>
+</body>
+</html>

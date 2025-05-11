@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\VS\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50B34E4E-19C5-459F-A465-34A883D3C949}|Apriori\\Apriori.csproj|h:\\vs\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\apriori\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50B34E4E-19C5-459F-A465-34A883D3C949}|Apriori\\Apriori.csproj|solutionrelative:apriori\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8729988F-5E29-45FC-96AF-3996B143429A}|Fp-Tree\\Fp-Tree.csproj|h:\\vs\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\fp-tree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8729988F-5E29-45FC-96AF-3996B143429A}|Fp-Tree\\Fp-Tree.csproj|solutionrelative:fp-tree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C530A4D0-65E4-49E3-9209-5F179AA369BD}|KNN\\KNN.csproj|h:\\vs\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\knn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C530A4D0-65E4-49E3-9209-5F179AA369BD}|KNN\\KNN.csproj|solutionrelative:knn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EDE6F51-BDBB-478D-9B9F-EA3B68BC68DA}|K-Mean\\K-Mean.csproj|h:\\vs\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\k-mean\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EDE6F51-BDBB-478D-9B9F-EA3B68BC68DA}|K-Mean\\K-Mean.csproj|solutionrelative:k-mean\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{470E8D0D-D2DE-4D56-BCD3-481E11E2C980}|ID3\\ID3.csproj|h:\\vs\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\id3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{470E8D0D-D2DE-4D56-BCD3-481E11E2C980}|ID3\\ID3.csproj|solutionrelative:id3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\VS\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\ID3\\Program.cs",
+              "RelativeDocumentMoniker": "ID3\\Program.cs",
+              "ToolTip": "H:\\VS\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\ID3\\Program.cs",
+              "RelativeToolTip": "ID3\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIA9wHgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T00:55:03.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\VS\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\K-Mean\\Program.cs",
+              "RelativeDocumentMoniker": "K-Mean\\Program.cs",
+              "ToolTip": "H:\\VS\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\K-Mean\\Program.cs",
+              "RelativeToolTip": "K-Mean\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAEwIIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T14:24:55.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\VS\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\KNN\\Program.cs",
+              "RelativeDocumentMoniker": "KNN\\Program.cs",
+              "ToolTip": "H:\\VS\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\KNN\\Program.cs",
+              "RelativeToolTip": "KNN\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T00:53:42.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\VS\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\Fp-Tree\\Program.cs",
+              "RelativeDocumentMoniker": "Fp-Tree\\Program.cs",
+              "ToolTip": "H:\\VS\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\Fp-Tree\\Program.cs",
+              "RelativeToolTip": "Fp-Tree\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowKgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T02:24:08.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\VS\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\Apriori\\Program.cs",
+              "RelativeDocumentMoniker": "Apriori\\Program.cs",
+              "ToolTip": "H:\\VS\\\u6570\u636E\u6316\u6398\u8BFE\u8BBE\\Apriori\\Program.cs",
+              "RelativeToolTip": "Apriori\\Program.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAEwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T02:20:39.574Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

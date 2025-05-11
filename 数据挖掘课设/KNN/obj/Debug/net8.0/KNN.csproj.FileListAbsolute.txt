@@ -1,0 +1,14 @@
+H:\VS\数据挖掘课设\KNN\bin\Debug\net8.0\KNN.exe
+H:\VS\数据挖掘课设\KNN\bin\Debug\net8.0\KNN.deps.json
+H:\VS\数据挖掘课设\KNN\bin\Debug\net8.0\KNN.runtimeconfig.json
+H:\VS\数据挖掘课设\KNN\bin\Debug\net8.0\KNN.dll
+H:\VS\数据挖掘课设\KNN\bin\Debug\net8.0\KNN.pdb
+H:\VS\数据挖掘课设\KNN\obj\Debug\net8.0\KNN.GeneratedMSBuildEditorConfig.editorconfig
+H:\VS\数据挖掘课设\KNN\obj\Debug\net8.0\KNN.AssemblyInfoInputs.cache
+H:\VS\数据挖掘课设\KNN\obj\Debug\net8.0\KNN.AssemblyInfo.cs
+H:\VS\数据挖掘课设\KNN\obj\Debug\net8.0\KNN.csproj.CoreCompileInputs.cache
+H:\VS\数据挖掘课设\KNN\obj\Debug\net8.0\KNN.dll
+H:\VS\数据挖掘课设\KNN\obj\Debug\net8.0\refint\KNN.dll
+H:\VS\数据挖掘课设\KNN\obj\Debug\net8.0\KNN.pdb
+H:\VS\数据挖掘课设\KNN\obj\Debug\net8.0\KNN.genruntimeconfig.cache
+H:\VS\数据挖掘课设\KNN\obj\Debug\net8.0\ref\KNN.dll

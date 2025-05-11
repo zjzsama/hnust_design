@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link href="/css/enroll.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="login-wrapper">
+            <div class="header">注册</div>
+            <form id="enroll-form">
+                <div class="input-wrapper">
+                    <label for="username">用户名</label>
+                    <input type="text" name="username" id="username" placeholder="请输入用户名" required/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="password">密码</label>
+                    <input type="password" name="password" id="password" placeholder="请输入密码" required/>
+                </div>
+                <button type="submit" class="btn">注册</button>
+            </form>
+            <div class="msg">已经有账号？<a href="#" id="enroll-link">登录</a></div>
+        </div>
+    </div>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/enroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link href="/css/login.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="container">
+      <div class="login-wrapper">
+        <div class="header">登录</div>
+          <form id="login-form">
+            <div class="input-wrapper">
+              <label for="username">用户名</label>
+                <input type="text" name="username" id="username" placeholder="请输入用户名" required/>
+            </div>
+            <div class="input-wrapper">
+              <label for="password">密码</label>
+              <input type="password" name="password" id="password" placeholder="请输入密码" required/>
+            </div>
+            <button type="submit" class="btn">登录</button>
+          </form>
+        <div class="msg">还没有账号？<a href="#" id="login-link">注册</a></div>
+      </div>
+    </div>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-image: linear-gradient(135deg, #0072FF, #00C6FF 100%);*/
+    background-image: url(H:/qq_chat-master/src/main/resources/static/img/preview.jpg);
+
+}
+
+.login-wrapper {
+    box-sizing: border-box;
+    width: 358px;
+    height: 470px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 60px 50px;
+    text-align: center;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1), 0 6px 12px 0px rgba(0,0,0,0.1);
+}
+
+.login-wrapper > form {
+    margin-top: 40px;
+}
+
+.header {
+    font-size: 38px;
+    font-weight: bold;
+    color: #00C6FF; /*修改为与按钮相同的颜色值*/
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+}
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-wrapper label {
+    display: none;
+}
+
+.input-wrapper input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    color: #23395b;
+}
+
+.input-wrapper input:focus + label,
+.input-wrapper input:not(:placeholder-shown) + label {
+    display: block;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    background-color: #fff;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #e74c3c;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #0072FF, #00C6FF);
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 2px #F9A01B;
+}
+
+.msg {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.msg a {
+    color: #1bf97b;
+    text-decoration: none;
+}

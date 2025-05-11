@@ -1,0 +1,14 @@
+H:\VS\数据挖掘课设\K-Mean\bin\Debug\net8.0\K-Mean.exe
+H:\VS\数据挖掘课设\K-Mean\bin\Debug\net8.0\K-Mean.deps.json
+H:\VS\数据挖掘课设\K-Mean\bin\Debug\net8.0\K-Mean.runtimeconfig.json
+H:\VS\数据挖掘课设\K-Mean\bin\Debug\net8.0\K-Mean.dll
+H:\VS\数据挖掘课设\K-Mean\bin\Debug\net8.0\K-Mean.pdb
+H:\VS\数据挖掘课设\K-Mean\obj\Debug\net8.0\K-Mean.GeneratedMSBuildEditorConfig.editorconfig
+H:\VS\数据挖掘课设\K-Mean\obj\Debug\net8.0\K-Mean.AssemblyInfoInputs.cache
+H:\VS\数据挖掘课设\K-Mean\obj\Debug\net8.0\K-Mean.AssemblyInfo.cs
+H:\VS\数据挖掘课设\K-Mean\obj\Debug\net8.0\K-Mean.csproj.CoreCompileInputs.cache
+H:\VS\数据挖掘课设\K-Mean\obj\Debug\net8.0\K-Mean.dll
+H:\VS\数据挖掘课设\K-Mean\obj\Debug\net8.0\refint\K-Mean.dll
+H:\VS\数据挖掘课设\K-Mean\obj\Debug\net8.0\K-Mean.pdb
+H:\VS\数据挖掘课设\K-Mean\obj\Debug\net8.0\K-Mean.genruntimeconfig.cache
+H:\VS\数据挖掘课设\K-Mean\obj\Debug\net8.0\ref\K-Mean.dll

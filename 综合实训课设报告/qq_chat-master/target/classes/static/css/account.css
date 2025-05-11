@@ -1,0 +1,117 @@
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    color: #333;
+}
+
+input[type="password"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+
+button.logout {
+    background-color: #f00;
+    border-color: #f00;
+}
+
+button:hover {
+    background-color: #666;
+    border-color: #666;
+}
+
+button.logout:hover {
+    background-color: #f33;
+    border-color: #f33;
+}
+
+button:active,
+button:focus {
+    background-color: #000;
+    border-color: #000;
+    outline: none;
+}
+
+button.logout:active,
+button.logout:focus {
+    background-color: #900;
+    border-color: #900;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btns-container button:first-child {
+    margin-right: 10px;
+}
+
+.btn-back {
+    background-color: #f2f2f2;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.btn-back:hover {
+    background-color: #ccc;
+}
+
+.btn-back:active,
+.btn-back:focus {
+    outline: none;
+    border-color: #aaa;
+}

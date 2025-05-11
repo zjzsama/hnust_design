@@ -1,0 +1,14 @@
+H:\VS\数据挖掘课设\Fp-Tree\bin\Debug\net8.0\Fp-Tree.exe
+H:\VS\数据挖掘课设\Fp-Tree\bin\Debug\net8.0\Fp-Tree.deps.json
+H:\VS\数据挖掘课设\Fp-Tree\bin\Debug\net8.0\Fp-Tree.runtimeconfig.json
+H:\VS\数据挖掘课设\Fp-Tree\bin\Debug\net8.0\Fp-Tree.dll
+H:\VS\数据挖掘课设\Fp-Tree\bin\Debug\net8.0\Fp-Tree.pdb
+H:\VS\数据挖掘课设\Fp-Tree\obj\Debug\net8.0\Fp-Tree.GeneratedMSBuildEditorConfig.editorconfig
+H:\VS\数据挖掘课设\Fp-Tree\obj\Debug\net8.0\Fp-Tree.AssemblyInfoInputs.cache
+H:\VS\数据挖掘课设\Fp-Tree\obj\Debug\net8.0\Fp-Tree.AssemblyInfo.cs
+H:\VS\数据挖掘课设\Fp-Tree\obj\Debug\net8.0\Fp-Tree.csproj.CoreCompileInputs.cache
+H:\VS\数据挖掘课设\Fp-Tree\obj\Debug\net8.0\Fp-Tree.dll
+H:\VS\数据挖掘课设\Fp-Tree\obj\Debug\net8.0\refint\Fp-Tree.dll
+H:\VS\数据挖掘课设\Fp-Tree\obj\Debug\net8.0\Fp-Tree.pdb
+H:\VS\数据挖掘课设\Fp-Tree\obj\Debug\net8.0\Fp-Tree.genruntimeconfig.cache
+H:\VS\数据挖掘课设\Fp-Tree\obj\Debug\net8.0\ref\Fp-Tree.dll

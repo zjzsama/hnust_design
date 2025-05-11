@@ -1,0 +1,478 @@
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    background-color: #f5f5f5;*/
+/*}*/
+
+/*.chat-box{*/
+/*    display: flex; !* flex布局 *!*/
+
+/*    width: 135vh;*/
+/*    height: 90vh;*/
+/*    margin: 0 auto;*/
+/*    !* text-align: center; *!*/
+/*    border: 2px solid #000;*/
+/*    background-color: #f2f2f2;*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+
+/*}*/
+
+/*.left-panel{*/
+/*    width: 30%;*/
+/*    height: 100%; !* 使用vh作为单位，当元素没有内容时，该元素会被撑开和屏幕高度一致 *!*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    border-right: 1px solid #000;*/
+/*    !* overflow: auto; 内容量若超出容器范围自动出现滚动条 *!*/
+/*}*/
+
+/*#username {*/
+/*    text-align: center;*/
+/*    font-weight: bold;*/
+/*    border-bottom: 1px solid #000;*/
+/*    height: 30px;*/
+/*}*/
+
+/*.friend-list {*/
+/*    flex: 1;*/
+/*    overflow: auto;*/
+/*    border-right: 1px solid #000;*/
+/*    border-bottom: 1px solid #000;*/
+/*}*/
+
+/*#broadcast {*/
+/*    text-align: center;*/
+/*    font-weight: bold;*/
+/*    border-bottom: 1px solid #000;*/
+/*}*/
+
+/*.broadcast-list {*/
+/*    flex: 1;*/
+/*    overflow: auto;*/
+/*    border-right: 1px solid #000;*/
+/*}*/
+
+/*.right-panel {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    height: 100%;*/
+/*    width: 70%;*/
+/*    position: relative;*/
+/*}*/
+
+/*.chat-header {*/
+/*    flex: 5;*/
+/*    !* height: 5%; *!*/
+/*    !* overflow: auto; *!*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    font-weight: bold;*/
+/*    border-bottom: 1px solid #000;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.friendsname {*/
+/*    !* position: absolute;*/
+/*    right: 40%;*/
+/*    left: 40%; *!*/
+/*    height: 30px;*/
+/*    !* flex-direction: column; *!*/
+/*    !* justify-content: center;*/
+/*    align-items: center; *!*/
+/*    !* text-align: center; *!*/
+/*}*/
+
+/*.close {*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    height: 100%;*/
+/*}*/
+
+/*.chat-message {*/
+/*    flex: 55;*/
+/*    !* height: 55%; *!*/
+/*    overflow: auto;*/
+/*    border-bottom: 1px solid #000;*/
+/*}*/
+
+/*.chat-footer {*/
+/*    flex: 40;*/
+/*    !* height: 30%; *!*/
+/*    position: relative;*/
+/*}*/
+
+/*.functions {*/
+/*    !* flex: 10; *!*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*#emoji {*/
+/*    position: absolute;*/
+/*    top: 18%;*/
+/*    left: 0;*/
+/*    display: none;*/
+/*    z-index: 100;*/
+/*}*/
+
+/*#emoji table {*/
+/*    background-color: #f2f2f2ff;*/
+/*    border: 1px solid #000;*/
+/*    box-shadow: 3px 3px 3px #6d6d6d;  !* 设置阴影 *!*/
+/*}*/
+
+/*textarea {*/
+/*    position: absolute;*/
+/*    width: 99%;*/
+/*    height: 80%;*/
+/*    background-color: #f2f2f2;*/
+/*    border: none; !* 去除textarea标签边框 *!*/
+/*    outline: none; !* 去除textarea标签输入时的边框 *!*/
+/*    resize: none; !* 禁止texteara调整大小 *!*/
+/*}*/
+
+/*#send {*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*}*/
+/*.alert-box {*/
+/*    position: fixed;*/
+/*    top: 70%;*/
+/*    left: 45%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    padding: 12px 24px;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);*/
+/*    background-color: #f2f2f2;*/
+/*    font-size: 16px;*/
+/*    color: #333;*/
+/*    z-index: 9999;*/
+/*    opacity: 1;*/
+/*    animation: fadeInOut 2s ease-in-out forwards;*/
+/*}*/
+/*@keyframes fadeInOut {*/
+/*    0% {*/
+/*        opacity: 0;*/
+/*        transform: translate(-50%, -30%);*/
+/*    }*/
+/*    20% {*/
+/*        opacity: 1;*/
+/*        transform: translate(-50%, -50%);*/
+/*    }*/
+/*    80% {*/
+/*        opacity: 1;*/
+/*        transform: translate(-50%, -50%);*/
+/*    }*/
+/*    100% {*/
+/*        opacity: 0;*/
+/*        transform: translate(-50%, -70%);*/
+/*    }*/
+/*}*/
+/*#friends div {*/
+/*    cursor: pointer;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.friend-wrapper {*/
+/*    border: 2px solid #ccc;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+/*#user-link{*/
+/*    cursor: pointer;*/
+/*}*/
+/*.chat-message {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    overflow-y: scroll;*/
+/*}*/
+
+/*.message-wrapper {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    max-width: 75%;*/
+/*    padding: 5px;*/
+/*    margin: 5px;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*.message.left {*/
+/*    text-align: left;*/
+/*    border: 1px solid #ccc;*/
+/*    background-color: #f5f5f5; !* 左侧聊天记录的背景色 *!*/
+/*    margin-left: 10px;*/
+/*    margin-right: auto;*/
+/*}*/
+
+/*.message.right {*/
+/*    text-align: right;*/
+/*    border: 1px solid #007bff;*/
+/*    background-color: #d9edf7; !* 右侧聊天记录的背景色 *!*/
+/*    margin-right: 10px;*/
+/*    margin-left: auto;*/
+/*}*/
+
+/*.sender, .receiver {*/
+/*    font-size: 12px;*/
+/*    margin: 0;*/
+/*    color: #666;*/
+/*}*/
+
+/*.content {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.content p {*/
+/*    margin: 0;*/
+/*    font-size: 14px;*/
+/*}*/
+
+/*.content img {*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.time {*/
+/*    font-size: 12px;*/
+/*    margin-top: 10px;*/
+/*    text-align: right;*/
+/*    color: #666;*/
+/*}*/
+
+ /*主样式*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-box {
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.left-panel {
+    width: 30%;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    display: flex;
+    flex-direction: column;
+}
+
+#username, #broadcast {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.friend-list, .broadcast-list {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.chat-header {
+    height: 50px;
+    background-color: #343a40;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-bottom: 1px solid #dee2e6;
+    position: relative;
+}
+
+.friendsname {
+    flex: 1;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.chat-message {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chat-footer {
+    height: 80px;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #dee2e6;
+    display: flex;
+    align-items: center;
+}
+
+.functions {
+    margin-right: 10px;
+}
+
+#emoji {
+    position: absolute;
+    display: none;
+    bottom: 180px;
+    z-index: 100;
+}
+
+#emoji table {
+    background-color: #f2f2f2ff;
+    border: 1px solid #000;
+    box-shadow: 3px 3px 3px #6d6d6d;  /* 设置阴影 */
+}
+/*textarea {*/
+/*    position: absolute;*/
+/*    width: 99%;*/
+/*    height: 80%;*/
+/*    background-color: #f2f2f2;*/
+/*    border: none; !* 去除textarea标签边框 *!*/
+/*    outline: none; !* 去除textarea标签输入时的边框 *!*/
+/*    resize: none; !* 禁止texteara调整大小 *!*/
+/*}*/
+
+textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    resize: none;
+    width: 80%; /* 相对于父容器宽度的百分比 */
+}
+
+#send {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send:hover {
+    background-color: #0056b3;
+}
+
+.alert-box {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px 24px;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    background-color: #f2f2f2;
+    font-size: 16px;
+    color: #333;
+    z-index: 9999;
+    opacity: 1;
+    animation: fadeInOut 2s ease-in-out forwards;
+}
+
+#friends div, #user-link {
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#friends div:hover, #user-link:hover {
+    background-color: #e9ecef;
+}
+
+.friend-wrapper {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.chat-message {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.message-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.message.left {
+    border: 1px solid #007bff;
+    background-color: #d9edf7;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.message.right {
+    border: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.sender, .receiver {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.time {
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: right;
+        color: #666;}

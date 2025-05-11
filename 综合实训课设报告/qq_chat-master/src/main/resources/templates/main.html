@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天页面</title>
+    <!--    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>-->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<div class="chat-box">
+    <div class="left-panel">
+        <div class="friend-list">
+            <!-- 好友列表 -->
+            <div id="username">用户名</div>
+            <div id="friends">
+                <div style="text-align: center;">好友A</div>
+            </div>
+        </div>
+        <div class="broadcast-list">
+            <!-- 广播列表 -->
+            <div id="broadcast">系统广播</div>
+            <ul id="broadcast-ul">
+                <!-- 广播内容将动态生成 -->
+            </ul>
+            <!--            <div style="text-align: center;">好友A上线了</div>-->
+        </div>
+    </div>
+    <div class="right-panel">
+        <div class="chat-header">
+            <span class="friendsname" id="friendsname">好友A</span>
+            <span class="close">
+                    <button id="close" style="height: 100%;">退出</button>
+                </span>
+        </div>
+        <div class="chat-message">
+            <!-- 消息框 -->
+            hello
+            😁
+            &#x1F600;
+        </div>
+        <div class="chat-footer">
+            <!-- 输入框 -->
+            <div id="emoji">
+                <table>
+                    <tr>
+                        <td><button onclick="insertEmoji('😅')">😅</button></td>
+                        <td><button onclick="insertEmoji('😂')">😂</button></td>
+                        <td><button onclick="insertEmoji('🤣')">🤣</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="insertEmoji('😁')">😁</button></td>
+                        <td><button onclick="insertEmoji('😃')">😃</button></td>
+                        <td><button onclick="insertEmoji('😄')">😄</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="functions">
+                <!-- 功能框 -->
+                <!-- <button id="emoji">
+                    <img src="E:\courses\SSM\maven_workspace\project\qqweb\images\emoji.png">
+                </button> -->
+                <input type="image" src="/img/emoji.png" onclick="showEmoji()"/>
+                <label for="imageFile" class="file-upload"><img src="/img/picture.png"/></label>
+                <input type="file" accept="image/*" id="imageFile" style="display: none;"/>
+                <!-- <input type="image" src="E:\courses\SSM\maven_workspace\project\qqweb\images\picture.png" onclick="addimages()"/> -->
+            </div>
+            <div class="input">
+                <textarea class="input" id="input" confirm-type="send" placeholder="请输入消息..."></textarea>
+            </div>
+            <div class="send">
+                <button id="send">发送</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/main.js"></script>
+</html>
+

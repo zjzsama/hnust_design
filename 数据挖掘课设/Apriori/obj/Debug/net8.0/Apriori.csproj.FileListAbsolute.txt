@@ -1,0 +1,14 @@
+H:\VS\数据挖掘课设\Apriori\bin\Debug\net8.0\Apriori.exe
+H:\VS\数据挖掘课设\Apriori\bin\Debug\net8.0\Apriori.deps.json
+H:\VS\数据挖掘课设\Apriori\bin\Debug\net8.0\Apriori.runtimeconfig.json
+H:\VS\数据挖掘课设\Apriori\bin\Debug\net8.0\Apriori.dll
+H:\VS\数据挖掘课设\Apriori\bin\Debug\net8.0\Apriori.pdb
+H:\VS\数据挖掘课设\Apriori\obj\Debug\net8.0\Apriori.GeneratedMSBuildEditorConfig.editorconfig
+H:\VS\数据挖掘课设\Apriori\obj\Debug\net8.0\Apriori.AssemblyInfoInputs.cache
+H:\VS\数据挖掘课设\Apriori\obj\Debug\net8.0\Apriori.AssemblyInfo.cs
+H:\VS\数据挖掘课设\Apriori\obj\Debug\net8.0\Apriori.csproj.CoreCompileInputs.cache
+H:\VS\数据挖掘课设\Apriori\obj\Debug\net8.0\Apriori.dll
+H:\VS\数据挖掘课设\Apriori\obj\Debug\net8.0\refint\Apriori.dll
+H:\VS\数据挖掘课设\Apriori\obj\Debug\net8.0\Apriori.pdb
+H:\VS\数据挖掘课设\Apriori\obj\Debug\net8.0\Apriori.genruntimeconfig.cache
+H:\VS\数据挖掘课设\Apriori\obj\Debug\net8.0\ref\Apriori.dll

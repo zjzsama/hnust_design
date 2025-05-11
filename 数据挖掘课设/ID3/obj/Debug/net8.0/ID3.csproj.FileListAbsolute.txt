@@ -1,0 +1,14 @@
+H:\VS\数据挖掘课设\ID3\bin\Debug\net8.0\ID3.exe
+H:\VS\数据挖掘课设\ID3\bin\Debug\net8.0\ID3.deps.json
+H:\VS\数据挖掘课设\ID3\bin\Debug\net8.0\ID3.runtimeconfig.json
+H:\VS\数据挖掘课设\ID3\bin\Debug\net8.0\ID3.dll
+H:\VS\数据挖掘课设\ID3\bin\Debug\net8.0\ID3.pdb
+H:\VS\数据挖掘课设\ID3\obj\Debug\net8.0\ID3.GeneratedMSBuildEditorConfig.editorconfig
+H:\VS\数据挖掘课设\ID3\obj\Debug\net8.0\ID3.AssemblyInfoInputs.cache
+H:\VS\数据挖掘课设\ID3\obj\Debug\net8.0\ID3.AssemblyInfo.cs
+H:\VS\数据挖掘课设\ID3\obj\Debug\net8.0\ID3.csproj.CoreCompileInputs.cache
+H:\VS\数据挖掘课设\ID3\obj\Debug\net8.0\ID3.dll
+H:\VS\数据挖掘课设\ID3\obj\Debug\net8.0\refint\ID3.dll
+H:\VS\数据挖掘课设\ID3\obj\Debug\net8.0\ID3.pdb
+H:\VS\数据挖掘课设\ID3\obj\Debug\net8.0\ID3.genruntimeconfig.cache
+H:\VS\数据挖掘课设\ID3\obj\Debug\net8.0\ref\ID3.dll
